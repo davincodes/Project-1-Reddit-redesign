@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/new.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://127.0.0.1:5500/Images/reddit-logo-16.png">
+    <title>Reddit</title>
+    <link href="./Reddit_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        *{
+        }
+        body{
+            background-color: #F4F4F4;
+        }
+        .header{
+            padding: 30px;
+        }
+        .reddit{
+            
+        }
+        .reddit-logo{
+            width: 90px;
+            height: auto;
+        }
+        .nav-item, .nav-item1 ,.nav-item2{
+            font-size: 12px !important;
+        }
+        .nav-item1{
+            color: #FF5700;
+        }
+        .flex-item{
+            font-size: 9.5px;
+            margin-top: 6px;
+            margin-left: 1px;
+        }
+        .favorites-text, .favorites-text1{
+            font-size: 12px !important;
+        }
+        .favorites-text1{
+            margin-left: 70px !important;
+
+        }
+        .user-profile1{
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+            border: 1px solid yellowgreen;
+        }
+        .content-nav{
+            list-style-type: none;
+            font-size: 12px !important;
+        }
+        .contents{
+            position: relative;
+            top: -55px;
+            left: -30px
+        }
+        .create-post{
+            font-size: 12px;
+            background-color: #FF5700;
+        }
+        .news-image{
+            width: 100px;
+        }
+        .highlights{
+            font-size: 11px;
+            border: 1px solid skyblue;
+        }.username{
+            font-size: 11px;
+        }
+    </style>
+<style data-emotion="css-global" data-s=""></style></head>
+<body>
+    <header class="container-fluid m-0">
+        <div class="row">
+            <div class="navbar navbar p-2 pb-0 pt-0 col-12 bg-white">
+                    <div class="d-flex">
+                        <div class-="reddit">
+                        <img class="reddit-logo m-2" src="./Reddit_files/Reddit-Logo.png" alt="">
+                    </div>
+                    <div class="col-md-7  navigations d-flex ms-2 mt-3">
+                        <ul class="nav-item fs-6 fw-bold pe-4 mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="15" viewBox="0 0 23 15" fill="none">
+                            <path d="M1 13.3374H21.8911" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M1.9917 13.3375L2.04393 6.07173C2.04393 5.70331 2.34685 5.35304 2.84823 5.12354L10.1602 1.83191C10.9123 1.49369 11.9672 1.49369 12.7297 1.83191L20.0417 5.11749C20.5535 5.347 20.846 5.69727 20.846 6.07173V13.3375" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                            <path d="M12.4899 10.3176H10.4008C9.53384 10.3176 8.83398 10.7223 8.83398 11.2236V13.3375H14.0568V11.2236C14.0568 10.7223 13.3569 10.3176 12.4899 10.3176Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                            <path d="M8.83435 8.35473H6.74524C6.17073 8.35473 5.70068 8.08294 5.70068 7.75076V6.84481C5.70068 6.51263 6.17073 6.24084 6.74524 6.24084H8.83435C9.40886 6.24084 9.87891 6.51263 9.87891 6.84481V7.75076C9.87891 8.08294 9.40886 8.35473 8.83435 8.35473Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                            <path d="M16.1459 8.35473H14.0568C13.4823 8.35473 13.0122 8.08294 13.0122 7.75076V6.84481C13.0122 6.51263 13.4823 6.24084 14.0568 6.24084H16.1459C16.7204 6.24084 17.1904 6.51263 17.1904 6.84481V7.75076C17.1904 8.08294 16.7204 8.35473 16.1459 8.35473Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                            <path d="M18.7578 4.27796L18.7264 2.46606H14.1304" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>Home</ul>
+                        <ul class="nav-item1 fs-6 fw-bold pe-4 mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="15" viewBox="0 0 19 15" fill="none">
+                            <path d="M1 9.07076L17.75 1M17.75 1H12.6456M17.75 1V3.95136M17.75 6.64953V13.9132M12.1666 8.26367V13.9132M6.58335 10.6849V13.9132M1 13.1061V13.9132" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>&nbsp;Popular</ul>
+                        <ul class="nav-item2 fs-6 fw-bold pe-4 me-2 mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="12" viewBox="0 0 29 12" fill="none">
+                            <path d="M28.1477 7.16098L23.2962 5.82314C24.4275 5.41186 25.196 4.60715 25.196 3.68197C25.196 2.33807 23.5783 1.24963 21.5816 1.24963C20.8955 1.24963 20.2618 1.38499 19.7163 1.60771C20.0418 2.08537 20.2261 2.61226 20.2261 3.16739C20.2261 3.9962 19.8032 4.7822 19.0796 5.43196C19.3293 5.5935 19.6105 5.73267 19.9216 5.84099L19.9186 5.84151L23.0438 6.70308C23.9272 6.9504 24.4985 7.49739 24.4985 8.09742V10.4441H27.8401C28.2865 10.4441 28.6477 10.2013 28.6477 9.90166V7.66516C28.6477 7.44297 28.4501 7.24574 28.1477 7.16098Z" fill="black"></path>
+                            <path d="M8.79861 5.81638C9.0567 5.72141 9.2935 5.60476 9.50842 5.472C8.75485 4.81669 8.31781 4.01596 8.31781 3.16739C8.31781 2.60047 8.51145 2.06336 8.85047 1.57807C8.32291 1.37494 7.71951 1.24963 7.06755 1.24963C5.0694 1.24963 3.45194 2.33807 3.45194 3.68197C3.45194 4.62222 4.24658 5.43595 5.40752 5.84099L0.50688 7.15994C0.201133 7.24296 0 7.44228 0 7.66516V9.90148C0 10.2011 0.3624 10.444 0.807531 10.444H4.04635V8.09725C4.04635 7.49011 4.62727 6.94087 5.52802 6.69684L8.79861 5.81638Z" fill="black"></path>
+                            <path d="M22.3995 7.47345L18.1799 6.30962L16.3958 5.8174C17.1751 5.53368 17.8079 5.09553 18.2222 4.56778C18.5507 4.1487 18.7464 3.67432 18.7464 3.1672C18.7464 2.88261 18.6685 2.61241 18.5597 2.35156C18.0288 1.08756 16.3217 0.156494 14.2726 0.156494C12.2619 0.156494 10.5809 1.05445 10.0174 2.28241C9.88727 2.56405 9.79764 2.85696 9.79764 3.1672C9.79764 3.70604 10.0156 4.20849 10.3855 4.64542C10.8132 5.15238 11.4472 5.57042 12.2187 5.83924L10.5096 6.29922L6.15296 7.47224C5.77467 7.57467 5.52588 7.82165 5.52588 8.09722V10.4439V10.8651C5.52588 11.236 5.97311 11.5367 6.52495 11.5367H22.0194C22.5713 11.5367 23.0185 11.236 23.0185 10.8651V10.4439V8.09722C23.0188 7.82269 22.7742 7.57814 22.3995 7.47345Z" fill="black"></path>
+                            </svg>&nbsp;All</ul>             
+                            </div>
+                            </div>
+                            <div class="col-12 col-md-4 ms-0 ms-2 mb-2 mt-2 ">
+                                <input type="text" class="form-control rounded bg-body-secondary my-auto" placeholder="🔍 Find community or post">
+                            </div>
+                            </div>
+                    </div>
+                    
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <aside>
+                    <div class="favorites d-flex">
+                        <h1 class="favorites-text fs-6 m-2 mt-3 mb-3 fw-bold">FAVORITES</h1>
+                        <h1 class="favorites-text1 fs-6 m-2 mt-3 mb-3">ALL</h1>
+                    </div>
+                    <div class="container">
+                        <div class="firstuser d-flex">
+                            <img class="user-profile1" src="./Reddit_files/dp.avif" alt="">
+                            <p class="flex-item">&nbsp;/rChamp2021</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">156</p>
+                        </div>
+                        <div class="seconduser d-flex">
+                            <img class="user-profile1" src="./Reddit_files/Reddit-Logo.png" alt="">
+                            <p class="flex-item">&nbsp;/rDavinchicodes</p>
+                        </div>
+                        <div class="thirduser d-flex">
+                            <img class="user-profile1" src="./Reddit_files/chibi-300x300.jpg" alt="">
+                            <p class="flex-item">&nbsp;/rArvinInnovatees</p>
+                            <p class="flex-item ms-4 border border black rounded-3 bg-body-secondary">1210</p>
+                        </div>
+                        <div class="fifthuser d-flex">
+                            <img class="user-profile1" src="./Reddit_files/b.webp" alt="">
+                            <p class="flex-item">&nbsp;/rTaylorSweep22</p>
+                        </div>
+                        <div class="sixthuser d-flex">
+                            <img class="user-profile1" src="./Reddit_files/c.avif" alt="">
+                            <p class="flex-item">&nbsp;/rChamp2021</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">43</p>
+                        </div>
+                        <hr>
+                    </div>
+                </aside></div>
+            <div class="col-md-8 col-sm-12 p-5 bg-body-secondary">
+                <div class="contents">
+                    <div class="navbar navbar p-2 pb-0 pt-0 col-12">
+                            <div class="nav-content ms-2 mt-3 d-flex">
+                                <li class="content-nav fw-bold pe-4 mt-2">Hot</li>
+                                <li class="content-nav fs-6 fw-bold pe-4 mt-2">Popular</li>
+                                <li class="content-nav fs-6 fw-bold pe-4 me-2 mt-2">Controversial</li>
+                                <li class="content-nav fs-6 fw-bold pe-4 mt-2">Rising</li>
+                                <a class="create-post pt-2 pb-1 ps-2 pe-2 fw-bold text-white text-decoration-none border border black rounded-2" href="http://127.0.0.1:5500/new.html">Create Post</a>                  
+                                </div>
+                            </div>
+                            <div class="newsfeed border border black d-flex bg-white mt-3">
+                                    <img class="news-image m-4" src="./Reddit_files/who is this.jpeg" alt="">
+                                    <div class="pinned mt-4 d-flex">
+                                        <div class="">
+                                            <p class="highlights p-1 ">PINNED BY MODERATORS</p>
+                                        </div>
+                                            <p class="username d-sm-none">&nbsp;&nbsp;/r7365Zeeblong</p>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                  
+    </main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<div id="otherside-root" style="z-index: 2147483647; position: relative;"><div id="hyper-main-container"><div id="hyper-menu-shadow-root" style="all: initial;"><template shadowrootmode="open" shadowrootdelegatesfocus><div id="root-styles" class="responsive-styles"><div><div id="windows"></div><div id="hyperwrite-menu-root" data-cy="menu"><div id="typeahead-menu-container"><div id="menu-view-container" class="react-draggable react-shadow-1gdlwuu" style="transform: translate(0px, 0px);"><div style="display: flex; align-items: center; justify-content: center;"><div class="react-shadow-1webjno"><div class="react-shadow-tg72ey"><img alt="Hyper" draggable="false" src="chrome-extension://kljjoeapehcmaphfcjkmbhkinoaopdnd/08059a6dbd445c1fb9d7.svg" aria-label="Please log in to use Personal Assistant" class=" react-shadow-1hqtm5a" style="filter: grayscale(100%);"></div></div></div></div></div></div></div></div><style data-emotion="react-shadow-global" data-s=""></style><style data-emotion="react-shadow" data-s=""></style></template></div><div id="assistant-shadow-root" style="all: initial;"><template shadowrootmode="open" shadowrootdelegatesfocus><div id="assistant-styles"><div></div></div><style data-emotion="react-shadow-global" data-s=""></style></template></div></div></div></body></html>
