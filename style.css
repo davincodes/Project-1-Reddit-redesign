@@ -1,5 +1,3 @@
-*{
-}
 body{
     background-color: #ebebeb;
 }
@@ -20,7 +18,7 @@ body{
     color: #FF5700;
 }
 .flex-item{
-    font-size: 9.5px;
+    font-size: 11.5px;
     margin-top: 6px;
     margin-left: 1px;
 }
@@ -30,6 +28,12 @@ body{
 .favorites-text1{
     margin-left: 70px !important;
 
+}
+.reddit-premium-text{
+    font-size: 12px;
+}
+.reddit-try{
+    background-color: #FF5700;
 }
 .user-profile1{
     border-radius: 50%;
@@ -45,7 +49,6 @@ body{
 }
 .content-nav{
     list-style-type: none;
-    font-size: 12px !important;
 }
 .contents{
     background-color: white;
@@ -62,57 +65,34 @@ body{
 .highlights{
     font-size: 10px;
     border: 1px solid skyblue;
+    width: 200px;
     
 }.username{
     font-size: 9px;
     color: gray
 }
+.c-paragraph{
+    font-size: 10px;
+    color: #b0afaf;
+    max-width: 400px;
+}
 .c-heading{
-    font-size: 16px;
+    font-size: 17px !important;
 }
 .c-nav{
     margin-left: 75px;
 }
-/* Responsive MOBILE*/
-@media(min-width: 1000px){
-    .flex-item{
-    font-size: 11.5px;
-    margin-top: 6px;
-    margin-left: 1px;
+.filter-by{
+    max-width: 180px;
+    /* min-width: 00px; */
 }
-    .highlights{
-        font-size: 10px;
-    }
-    .c-heading{
-        font-size: 17px;
-    }
+.comments{
+    position: absolute;
 }
-@media (max-width:768px){
-    .favorite-section{
-        display: none;
-    }
+.favorite-section{
+    max-width: 200px;
 }
-@media (max-width:576px){
-    .highlights{
-        font-size: 8px
-    }
-    .c-heading{
-        font-size: 13px;
-    }
-    .c-nav{
-        margin-left: 0px;
-    }
-    .favorites-text1{
-        font-size: 10px;
-    }
-    .favorite-section{
-        display: none;
-    }
-    
-}
-@media (max-width:512px){
-    .create-post{
-        font-size: 9px;
-        margin-top: 3px;
-    }
+.fav-sec{
+    max-width: 200px;
+    padding-right: 20px;
 }

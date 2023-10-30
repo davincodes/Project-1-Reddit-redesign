@@ -12,12 +12,12 @@
 <body>
     <header class="container-fluid m-0">
         <div class="row">
-            <div class="navbar navbar p-2 pb-0 pt-0 col-12 bg-white">
+            <div class="bar-nav navbar navbar p-2 pb-0 pt-0 col-12 bg-white">
                     <div class="d-flex">
                         <div class-="reddit">
                             <img class="reddit-logo m-2" src="./Images/Reddit-Logo.png" alt="">
                     </div>
-                    <div class="col-md-7  navigations d-flex ms-2 mt-3">
+                    <div class="col-md-7 navigations d-flex ms-2 mt-3">
                         <ul class="nav-item fs-6 fw-bold pe-4 mt-2"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="15" viewBox="0 0 23 15" fill="none">
                             <path d="M1 13.3374H21.8911" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M1.9917 13.3375L2.04393 6.07173C2.04393 5.70331 2.34685 5.35304 2.84823 5.12354L10.1602 1.83191C10.9123 1.49369 11.9672 1.49369 12.7297 1.83191L20.0417 5.11749C20.5535 5.347 20.846 5.69727 20.846 6.07173V13.3375" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
@@ -34,24 +34,31 @@
                             <path d="M8.79861 5.81638C9.0567 5.72141 9.2935 5.60476 9.50842 5.472C8.75485 4.81669 8.31781 4.01596 8.31781 3.16739C8.31781 2.60047 8.51145 2.06336 8.85047 1.57807C8.32291 1.37494 7.71951 1.24963 7.06755 1.24963C5.0694 1.24963 3.45194 2.33807 3.45194 3.68197C3.45194 4.62222 4.24658 5.43595 5.40752 5.84099L0.50688 7.15994C0.201133 7.24296 0 7.44228 0 7.66516V9.90148C0 10.2011 0.3624 10.444 0.807531 10.444H4.04635V8.09725C4.04635 7.49011 4.62727 6.94087 5.52802 6.69684L8.79861 5.81638Z" fill="black"/>
                             <path d="M22.3995 7.47345L18.1799 6.30962L16.3958 5.8174C17.1751 5.53368 17.8079 5.09553 18.2222 4.56778C18.5507 4.1487 18.7464 3.67432 18.7464 3.1672C18.7464 2.88261 18.6685 2.61241 18.5597 2.35156C18.0288 1.08756 16.3217 0.156494 14.2726 0.156494C12.2619 0.156494 10.5809 1.05445 10.0174 2.28241C9.88727 2.56405 9.79764 2.85696 9.79764 3.1672C9.79764 3.70604 10.0156 4.20849 10.3855 4.64542C10.8132 5.15238 11.4472 5.57042 12.2187 5.83924L10.5096 6.29922L6.15296 7.47224C5.77467 7.57467 5.52588 7.82165 5.52588 8.09722V10.4439V10.8651C5.52588 11.236 5.97311 11.5367 6.52495 11.5367H22.0194C22.5713 11.5367 23.0185 11.236 23.0185 10.8651V10.4439V8.09722C23.0188 7.82269 22.7742 7.57814 22.3995 7.47345Z" fill="black"/>
                             </svg>&nbsp;All</ul>             
-                            </div>
-                            </div>
+                        </div>
+                        </div>
                             <div class="col-12 col-md-4 ms-0 ms-2 mb-2 mt-2 ">
                                 <input type="text" class="form-control rounded bg-body-secondary my-auto" placeholder="🔍 Find community or post">
                             </div>
-                            </div>
-                    </div>
-                    </div>
+                        </div>
+                </div>
+            </div>
     </header>
     <main class="container-fluid">
         <div class="row">
             <div class="favorite-section col-md-3">
                 <aside>
+                    <div class="filter-by rounded-3 pt-1 bg-light pb-1 mt-3">
+                        <div>
+                        <h1 class="filter-text fs-6 mt-2 text-start ps-2 text-muted">Filter by&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
+                            <path d="M13.5004 17.6989C13.2376 17.6994 12.9828 17.6093 12.7804 17.4444L6.03043 11.9135C5.80069 11.7258 5.65621 11.456 5.62878 11.1635C5.60136 10.871 5.69323 10.5797 5.88418 10.3538C6.07514 10.1279 6.34954 9.98587 6.64702 9.9589C6.9445 9.93194 7.24069 10.0223 7.47043 10.21L13.5004 15.1657L19.5304 10.387C19.6455 10.2951 19.7779 10.2265 19.92 10.1851C20.0622 10.1437 20.2112 10.1303 20.3586 10.1457C20.506 10.1612 20.6489 10.2051 20.779 10.275C20.9091 10.3448 21.0238 10.4393 21.1167 10.5529C21.2197 10.6667 21.2977 10.8001 21.3459 10.9449C21.394 11.0897 21.4112 11.2426 21.3965 11.3943C21.3817 11.5459 21.3352 11.6929 21.26 11.826C21.1847 11.9591 21.0823 12.0756 20.9592 12.168L14.2092 17.5108C14.001 17.6497 13.7514 17.7159 13.5004 17.6989Z" fill="#231F20"/>
+                            </svg></h1>
+                        </div>
+                    </div>
                     <div class="favorites d-flex mt-2">
                         <h1 class="favorites-text fs-6 m-2 mt-3 mb-3 fw-bold">FAVORITES</h1>
                         <h1 class="favorites-text1 fs-6 m-2 mt-3 mb-3">ALL</h1>
                     </div>
-                    <div class="">
+                    <div class="ms-2">
                         <div class="firstuser d-flex">
                             <img class="user-profile1" src="./Images/dp.avif" alt="">
                             <p class="flex-item">&nbsp;/rChamp2021</p>
@@ -82,7 +89,34 @@
                     <div class="favorites d-flex mt-2">
                         <h1 class="favorites-text fs-6 m-2 mt-3 mb-3 fw-bold">COMMUNITY</h1>
                     </div>
-                    <div class="d-sm-block'">
+                    <div class="d-sm-block ms-2">
+                        <div class="firstuser d-flex">
+                            <img class="user-profile1" src="./Images/dp.avif" alt="">
+                            <p class="flex-item">&nbsp;/rChamp2021</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">156</p>
+                        </div>
+                        <div class="seconduser d-flex">
+                            <img class="user-profile1" src="./Images/Reddit-Logo.png" alt="">
+                            <p class="flex-item">&nbsp;/rDavinchicodes</p>
+                        </div>
+                        <div class="thirduser d-flex">
+                            <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">
+                            <p class="flex-item">&nbsp;/rArvinInnovatees</p>
+                        </div>
+                        <div class="fifthuser d-flex">
+                            <img class="user-profile1" src="./Images/b.webp" alt="">
+                            <p class="flex-item">&nbsp;/rTaylorSweep22</p>
+                        </div>
+                        <div class="sixthuser d-flex">
+                            <img class="user-profile1" src="./Images/c.avif" alt="">
+                            <p class="flex-item">&nbsp;/rChamp2021</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">43</p>
+                        </div>
+                    </div>
+                    <div class="favorites d-flex mt-2">
+                        <h1 class="favorites-text fs-6 m-2 mt-3 mb-3 fw-bold">COMMUNITY</h1>
+                    </div>
+                    <div class="d-sm-block ms-2">
                         <div class="firstuser d-flex">
                             <img class="user-profile1" src="./Images/dp.avif" alt="">
                             <p class="flex-item">&nbsp;/rChamp2021</p>
@@ -107,10 +141,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-9 col-sm-12 p-5 bg-body-secondary">
-                    <div class="contents">
+                <div class="col-lg-8 col-md-9 pt-5 pb-5 bg-body-secondary">
+                    <div class="contents rounded-4">
                         <div class="c-nav navbar navbar p-2 pb-0 pt-0 col-12">
-                                <div class="nav-content ms-2 mt-3 d-flex">
+                                <div class="nav-content mt-3 d-flex">
                                     <li class="content-nav fw-bold pe-4 mt-2">Hot</li>
                                     <li class="content-nav fs-6 fw-bold pe-4 mt-2">Popular</li>
                                     <li class="content-nav fs-6 fw-bold pe-4 me-2 mt-2">Controversial</li>
@@ -120,121 +154,55 @@
                                 </div>
                             <div class="reddit-feeds mt-4">
                                 <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                    <div class="d-flex">
-                                        <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
+                                    <div class="c-box d-flex">
+                                        <img class="news-image m-3" src="./Images/meta.jpeg" alt="">
                                         <div class="pinned mt-4 d-flex">
                                             <div class="">
-                                                <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
+                                                <p class="highlights p-1 d-f fw-bold">PINNED BY MODERATORS</p>
                                                 <div>
-                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                    <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
+                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] is the future!</h1>
+                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">&nbsp;&nbsp;Sandy</p>
                                                 </div>
                                             </div>
                                         </div>  
                                     </div>
                                 </div>
                             </div>
-                            <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                <div class="d-flex">
-                                    <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
-                                    <div class="pinned mt-4 d-flex">
-                                        <div class="">
-                                            <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
-                                            <div>
-                                                <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
+                            <div class="reddit-feeds mt-4">
+                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
+                                    <div class="c-box d-flex">
+                                        <img class="news-image m-3" src="./Images/meta.jpeg" alt="">
+                                        <div class="pinned mt-4 d-flex">
+                                            <div class="">
+                                                <p class="highlights p-1 d-f fw-bold">PINNED BY MODERATORS</p>
+                                                <div>
+                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] is the future!</h1>
+                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">&nbsp;&nbsp;Sandy</p>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                <div class="d-flex">
-                                    <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
-                                    <div class="pinned mt-4 d-flex">
-                                        <div class="">
-                                            <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
-                                            <div>
-                                                <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                <div class="d-flex">
-                                    <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
-                                    <div class="pinned mt-4 d-flex">
-                                        <div class="">
-                                            <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
-                                            <div>
-                                                <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                <div class="d-flex">
-                                    <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
-                                    <div class="pinned mt-4 d-flex">
-                                        <div class="">
-                                            <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
-                                            <div>
-                                                <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                <div class="d-flex">
-                                    <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
-                                    <div class="pinned mt-4 d-flex">
-                                        <div class="">
-                                            <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
-                                            <div>
-                                                <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                <div class="d-flex">
-                                    <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
-                                    <div class="pinned mt-4 d-flex">
-                                        <div class="">
-                                            <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
-                                            <div>
-                                                <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                <div class="d-flex">
-                                    <img class="news-image m-3" src="./Images/who is this.jpeg" alt="">
-                                    <div class="pinned mt-4 d-flex">
-                                        <div class="">
-                                            <p class="highlights p-1 d-f">PINNED BY MODERATORS</p>
-                                            <div>
-                                                <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] The future of r/Programming</h1>
-                                                <p class="username mt-1">&nbsp;&nbsp;/r7365Zeeblong | 5min ago</p>
-                                            </div>
-                                        </div>
-                                    </div>  
+                                        </div>  
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="fav-sec col-3">
+                        <aside>
+                            <div class="filter-by rounded-4 pt-1 pb-1 mt-3">
+                            <div class="reddit-premium bg-white p-4 mt-4 rounded-4">
+                                <div class="reddit-premium">
+                                    <h1 class="reddit-premium-text text-center pt-1 d-flex mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19" fill="none">
+                                        <path d="M13.7309 2.03124L8.6929 0.144271C8.17078 -0.0480902 7.31889 -0.0480902 6.79677 0.144271L1.75873 2.03124C0.787764 2.39764 0 3.53349 0 4.56857V11.9882C0 12.7301 0.485482 13.7103 1.08089 14.1499L6.11893 17.9147C7.00745 18.5834 8.4639 18.5834 9.35242 17.9147L14.3904 14.1499C14.9858 13.7011 15.4713 12.7301 15.4713 11.9882V4.56857C15.4805 3.53349 14.6927 2.39764 13.7309 2.03124ZM10.9279 7.16086L6.98913 11.0996C6.85173 11.237 6.67769 11.3012 6.50365 11.3012C6.32961 11.3012 6.15557 11.237 6.01817 11.0996L4.55254 9.61572C4.2869 9.35008 4.2869 8.91039 4.55254 8.64475C4.81818 8.37911 5.25786 8.37911 5.52351 8.64475L6.51281 9.63404L9.96614 6.18074C10.2318 5.9151 10.6715 5.9151 10.9371 6.18074C11.2028 6.44638 11.2027 6.89522 10.9279 7.16086Z" fill="#FF6D00"/>
+                                        </svg>&nbsp;Reddit Premium</h1>
+                                        <div class="reddit-try border border black text-center rounded-4 shadow">
+                                        <a class="text-decoration-none text-white fw-bold" ref="">TRY IT NOW</a>
+                                    </div>
+                                </div>
+                            </div>
                 </div>
+            </div>
         </main>
     </body>
     </html>
