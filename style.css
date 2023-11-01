@@ -11,9 +11,6 @@ body{
 .nav-item, .nav-item1 ,.nav-item2{
     font-size: 12px !important;
 }
-.nav-item1{
-    color: #FF5700;
-}
 .flex-item{
     font-size: 11.5px;
     margin-top: 6px;
@@ -27,7 +24,7 @@ body{
 
 }
 .reddit-premium{
-    width: 230px;
+    width: 190px;
 }
 .reddit-premium-text{
     font-size: 12px;
@@ -53,7 +50,7 @@ body{
 }
 .contents{
     background-color: white;
-    padding-bottom: 1000px;
+    padding-bottom: 7px;
     margin-top: -27px !important;
     margin-left: 20px;
 }
@@ -104,12 +101,39 @@ body{
 .top-g-text{
     font-size: 12px;
 }
-@media (max-width: 1200){
+
+@media (max-width: 1215px){
+    .top-g{
+        width: 210px;
+        display: none;
+    }
 }
 @media (max-width: 768px){
     .favorite-section{
         display: none;
     }
+    .top-g{
+        width: 382px;
     }
-
+    }
+@media (max-width: 576px){
     
+    .contents{
+        position: relative;
+        top: -20px;
+        margin-right: 2px;
+        margin-left: 3px;
+    }
+    .c-nav{
+        margin: 15px !important;
+    }
+    .content-nav{
+        font-size: 15px !important;
+    }
+    .navicon{
+        display: none;
+    }
+    .top-g{
+        width: 382px;
+    }
+}
