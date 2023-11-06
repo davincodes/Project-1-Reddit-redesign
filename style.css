@@ -113,6 +113,9 @@ body{
 .advertise{
     background-color: #FF5700;
 }
+.footer-text{
+    font-size: 12px;
+}
 @media(min-width: 1215px){
     .nav-item{
         padding-left: 70px;
