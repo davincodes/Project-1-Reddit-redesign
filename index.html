@@ -10,49 +10,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header and Nav -->
-    <header class="container-fluid m-0">
-        <div class="row">
-            <nav class="bar-nav navbar navbar p-2 pb-0 pt-0 col-12 bg-white">
-                    <div class="d-flex">
-                        <div class-="reddit">
-                            <img class="reddit-logo m-2" src="./Images/Reddit-Logo.png" alt="">
-                    </div>
-                    <div class="col-md-7 navigations d-flex ms-2 mt-3">
-                        <ul class="nav-item fs-6 fw-bold pe-4 mt-2"><a class="text-decoration-none text-black" href="https://www.reddit.com/?feed=home"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="15" viewBox="0 0 23 15" fill="none">
-                            <path d="M1 13.3374H21.8911" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M1.9917 13.3375L2.04393 6.07173C2.04393 5.70331 2.34685 5.35304 2.84823 5.12354L10.1602 1.83191C10.9123 1.49369 11.9672 1.49369 12.7297 1.83191L20.0417 5.11749C20.5535 5.347 20.846 5.69727 20.846 6.07173V13.3375" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-                            <path d="M12.4899 10.3176H10.4008C9.53384 10.3176 8.83398 10.7223 8.83398 11.2236V13.3375H14.0568V11.2236C14.0568 10.7223 13.3569 10.3176 12.4899 10.3176Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-                            <path d="M8.83435 8.35473H6.74524C6.17073 8.35473 5.70068 8.08294 5.70068 7.75076V6.84481C5.70068 6.51263 6.17073 6.24084 6.74524 6.24084H8.83435C9.40886 6.24084 9.87891 6.51263 9.87891 6.84481V7.75076C9.87891 8.08294 9.40886 8.35473 8.83435 8.35473Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-                            <path d="M16.1459 8.35473H14.0568C13.4823 8.35473 13.0122 8.08294 13.0122 7.75076V6.84481C13.0122 6.51263 13.4823 6.24084 14.0568 6.24084H16.1459C16.7204 6.24084 17.1904 6.51263 17.1904 6.84481V7.75076C17.1904 8.08294 16.7204 8.35473 16.1459 8.35473Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
-                            <path d="M18.7578 4.27796L18.7264 2.46606H14.1304" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>Home</ul></a>
-                        <ul class="nav-item fs-6 fw-bold pe-4 mt-2"><a class="text-decoration-none" style="color: #FF5700;"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="15" viewBox="0 0 19 15" fill="none">
-                            <path d="M1 9.07076L17.75 1M17.75 1H12.6456M17.75 1V3.95136M17.75 6.64953V13.9132M12.1666 8.26367V13.9132M6.58335 10.6849V13.9132M1 13.1061V13.9132" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>&nbsp;Popular</ul></a>
-                        <ul class="nav-item fs-6 fw-bold pe-4 me-2 mt-2"><a class="text-decoration-none text-black" href=""><svg xmlns="http://www.w3.org/2000/svg" width="29" height="12" viewBox="0 0 29 12" fill="none">
-                            <path d="M28.1477 7.16098L23.2962 5.82314C24.4275 5.41186 25.196 4.60715 25.196 3.68197C25.196 2.33807 23.5783 1.24963 21.5816 1.24963C20.8955 1.24963 20.2618 1.38499 19.7163 1.60771C20.0418 2.08537 20.2261 2.61226 20.2261 3.16739C20.2261 3.9962 19.8032 4.7822 19.0796 5.43196C19.3293 5.5935 19.6105 5.73267 19.9216 5.84099L19.9186 5.84151L23.0438 6.70308C23.9272 6.9504 24.4985 7.49739 24.4985 8.09742V10.4441H27.8401C28.2865 10.4441 28.6477 10.2013 28.6477 9.90166V7.66516C28.6477 7.44297 28.4501 7.24574 28.1477 7.16098Z" fill="black"/>
-                            <path d="M8.79861 5.81638C9.0567 5.72141 9.2935 5.60476 9.50842 5.472C8.75485 4.81669 8.31781 4.01596 8.31781 3.16739C8.31781 2.60047 8.51145 2.06336 8.85047 1.57807C8.32291 1.37494 7.71951 1.24963 7.06755 1.24963C5.0694 1.24963 3.45194 2.33807 3.45194 3.68197C3.45194 4.62222 4.24658 5.43595 5.40752 5.84099L0.50688 7.15994C0.201133 7.24296 0 7.44228 0 7.66516V9.90148C0 10.2011 0.3624 10.444 0.807531 10.444H4.04635V8.09725C4.04635 7.49011 4.62727 6.94087 5.52802 6.69684L8.79861 5.81638Z" fill="black"/>
-                            <path d="M22.3995 7.47345L18.1799 6.30962L16.3958 5.8174C17.1751 5.53368 17.8079 5.09553 18.2222 4.56778C18.5507 4.1487 18.7464 3.67432 18.7464 3.1672C18.7464 2.88261 18.6685 2.61241 18.5597 2.35156C18.0288 1.08756 16.3217 0.156494 14.2726 0.156494C12.2619 0.156494 10.5809 1.05445 10.0174 2.28241C9.88727 2.56405 9.79764 2.85696 9.79764 3.1672C9.79764 3.70604 10.0156 4.20849 10.3855 4.64542C10.8132 5.15238 11.4472 5.57042 12.2187 5.83924L10.5096 6.29922L6.15296 7.47224C5.77467 7.57467 5.52588 7.82165 5.52588 8.09722V10.4439V10.8651C5.52588 11.236 5.97311 11.5367 6.52495 11.5367H22.0194C22.5713 11.5367 23.0185 11.236 23.0185 10.8651V10.4439V8.09722C23.0188 7.82269 22.7742 7.57814 22.3995 7.47345Z" fill="black"/>
-                            </svg>&nbsp;All</ul></a> 
-                        </div>        
-                        </div>
-                        <div class="col-11 col-md-3 ms-0 ms-2 mb-2 mt-2 ">
-                            <input type="text" class="form-control rounded bg-body-secondary my-auto" placeholder="🔍 Find community or post">
-                        </div>
-            </nav>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="reddit-logo" src="./Images/Reddit-Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active fw-bold ms-4" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="15" viewBox="0 0 23 15" fill="none">
+                        <path d="M1 13.3374H21.8911" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M1.9917 13.3375L2.04393 6.07173C2.04393 5.70331 2.34685 5.35304 2.84823 5.12354L10.1602 1.83191C10.9123 1.49369 11.9672 1.49369 12.7297 1.83191L20.0417 5.11749C20.5535 5.347 20.846 5.69727 20.846 6.07173V13.3375" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+                        <path d="M12.4899 10.3176H10.4008C9.53384 10.3176 8.83398 10.7223 8.83398 11.2236V13.3375H14.0568V11.2236C14.0568 10.7223 13.3569 10.3176 12.4899 10.3176Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+                        <path d="M8.83435 8.35473H6.74524C6.17073 8.35473 5.70068 8.08294 5.70068 7.75076V6.84481C5.70068 6.51263 6.17073 6.24084 6.74524 6.24084H8.83435C9.40886 6.24084 9.87891 6.51263 9.87891 6.84481V7.75076C9.87891 8.08294 9.40886 8.35473 8.83435 8.35473Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+                        <path d="M16.1459 8.35473H14.0568C13.4823 8.35473 13.0122 8.08294 13.0122 7.75076V6.84481C13.0122 6.51263 13.4823 6.24084 14.0568 6.24084H16.1459C16.7204 6.24084 17.1904 6.51263 17.1904 6.84481V7.75076C17.1904 8.08294 16.7204 8.35473 16.1459 8.35473Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
+                        <path d="M18.7578 4.27796L18.7264 2.46606H14.1304" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>&nbsp; &nbsp;Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-2 mb-2 mb-lg-0 ms-4">
+                    <li class="nav-item">
+                    <a class="nav-link popular active fw-bold" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="15" viewBox="0 0 19 15" fill="none">
+                        <path d="M1 9.07076L17.75 1M17.75 1H12.6456M17.75 1V3.95136M17.75 6.64953V13.9132M12.1666 8.26367V13.9132M6.58335 10.6849V13.9132M1 13.1061V13.9132" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>&nbsp; &nbsp;Popular</ul></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="12" viewBox="0 0 29 12" fill="none">
+                                <path d="M28.1477 7.16098L23.2962 5.82314C24.4275 5.41186 25.196 4.60715 25.196 3.68197C25.196 2.33807 23.5783 1.24963 21.5816 1.24963C20.8955 1.24963 20.2618 1.38499 19.7163 1.60771C20.0418 2.08537 20.2261 2.61226 20.2261 3.16739C20.2261 3.9962 19.8032 4.7822 19.0796 5.43196C19.3293 5.5935 19.6105 5.73267 19.9216 5.84099L19.9186 5.84151L23.0438 6.70308C23.9272 6.9504 24.4985 7.49739 24.4985 8.09742V10.4441H27.8401C28.2865 10.4441 28.6477 10.2013 28.6477 9.90166V7.66516C28.6477 7.44297 28.4501 7.24574 28.1477 7.16098Z" fill="black"/>
+                                <path d="M8.79861 5.81638C9.0567 5.72141 9.2935 5.60476 9.50842 5.472C8.75485 4.81669 8.31781 4.01596 8.31781 3.16739C8.31781 2.60047 8.51145 2.06336 8.85047 1.57807C8.32291 1.37494 7.71951 1.24963 7.06755 1.24963C5.0694 1.24963 3.45194 2.33807 3.45194 3.68197C3.45194 4.62222 4.24658 5.43595 5.40752 5.84099L0.50688 7.15994C0.201133 7.24296 0 7.44228 0 7.66516V9.90148C0 10.2011 0.3624 10.444 0.807531 10.444H4.04635V8.09725C4.04635 7.49011 4.62727 6.94087 5.52802 6.69684L8.79861 5.81638Z" fill="black"/>
+                                <path d="M22.3995 7.47345L18.1799 6.30962L16.3958 5.8174C17.1751 5.53368 17.8079 5.09553 18.2222 4.56778C18.5507 4.1487 18.7464 3.67432 18.7464 3.1672C18.7464 2.88261 18.6685 2.61241 18.5597 2.35156C18.0288 1.08756 16.3217 0.156494 14.2726 0.156494C12.2619 0.156494 10.5809 1.05445 10.0174 2.28241C9.88727 2.56405 9.79764 2.85696 9.79764 3.1672C9.79764 3.70604 10.0156 4.20849 10.3855 4.64542C10.8132 5.15238 11.4472 5.57042 12.2187 5.83924L10.5096 6.29922L6.15296 7.47224C5.77467 7.57467 5.52588 7.82165 5.52588 8.09722V10.4439V10.8651C5.52588 11.236 5.97311 11.5367 6.52495 11.5367H22.0194C22.5713 11.5367 23.0185 11.236 23.0185 10.8651V10.4439V8.09722C23.0188 7.82269 22.7742 7.57814 22.3995 7.47345Z" fill="black"/>
+                                </svg>&nbsp; &nbsp;All</a>
+                        </li>
+                    </ul>
+            <form class="d-flex" role="search">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-2">
+                        <li class="nav-item me-3">
+                            <a class="advertise nav-link active fw-bold borde border black rounded-5 p-2  ps-4 pe-4 text-white" aria-current="page" href="#">Advertise</a>
+                        </li>
+                    </ul>
+                <input class="form-control me-2 me-3" type="search" placeholder="🔍 Find community or post" aria-label="Search">
+                <button class="search-button rounded-2" type="submit">Search</button>
+            </form>
             </div>
-    </header>
+            </div>
+        </div>
+    </nav>
     <!-- Main Section -->
     <main class="container-fluid">
         <div class="row">
-            <!-- Aside -->
+            <!-- Favorites Section -->
             <section class="favorite-section col-md-3">
                 <aside>
                     <div class="filter-by rounded-3 pt-1 bg-light pb-1 mt-3">
                         <div>
-                        <h1 class="filter-text fs-6 mt-2 text-start ps-2 text-muted">Filter by&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
+                        <h1 class="filter-text fs-6 mt-2 text-start ps-2 text-muted ms-2">Filter by&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
                             <path d="M13.5004 17.6989C13.2376 17.6994 12.9828 17.6093 12.7804 17.4444L6.03043 11.9135C5.80069 11.7258 5.65621 11.456 5.62878 11.1635C5.60136 10.871 5.69323 10.5797 5.88418 10.3538C6.07514 10.1279 6.34954 9.98587 6.64702 9.9589C6.9445 9.93194 7.24069 10.0223 7.47043 10.21L13.5004 15.1657L19.5304 10.387C19.6455 10.2951 19.7779 10.2265 19.92 10.1851C20.0622 10.1437 20.2112 10.1303 20.3586 10.1457C20.506 10.1612 20.6489 10.2051 20.779 10.275C20.9091 10.3448 21.0238 10.4393 21.1167 10.5529C21.2197 10.6667 21.2977 10.8001 21.3459 10.9449C21.394 11.0897 21.4112 11.2426 21.3965 11.3943C21.3817 11.5459 21.3352 11.6929 21.26 11.826C21.1847 11.9591 21.0823 12.0756 20.9592 12.168L14.2092 17.5108C14.001 17.6497 13.7514 17.7159 13.5004 17.6989Z" fill="#231F20"/>
                             </svg></h1>
                         </div>
@@ -68,79 +82,86 @@
                             <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">156</p>
                         </div>
                         <div class="seconduser d-flex">
-                            <img class="user-profile1" src="./Images/Reddit-Logo.png" alt="">
+                            <img class="user-profile1" src="https://assets.coingecko.com/coins/images/30818/large/chibi_no_bg.jpg?1696529674" alt="">
                             <p class="flex-item">&nbsp;/rDavinchicodes</p>
                         </div>
                         <div class="thirduser d-flex">
-                            <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">
+                            <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRgs5dP3xA2yrApI8yncjFGS-B9TNoZAE2GQ&usqp=CAU" alt="">
                             <p class="flex-item">&nbsp;/rArvinInnovatees</p>
                             <p class="flex-item ms-4 border border black rounded-3 bg-body-secondary">1210</p>
                         </div>
                         <div class="fifthuser d-flex">
-                            <img class="user-profile1" src="./Images/b.webp" alt="">
+                            <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ewi7yr2yqa_kqh8VAuao9MhI6Pc11H61Hw&usqp=CAU" alt="">
                             <p class="flex-item">&nbsp;/rTaylorSweep22</p>
                         </div>
                         <div class="sixthuser d-flex">
-                            <img class="user-profile1" src="./Images/c.avif" alt="">
+                            <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJWLLBuG_tXaWXxzm4XqKoU7hmZwC0G17rEQ&usqp=CAU" alt="">
                             <p class="flex-item">&nbsp;/rChamp2021</p>
                             <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">43</p>
                         </div>
                         <div>
                             <a class="view-all text-decoration-none">View all</a>
+                            <hr>
                         </div>
+                    <!-- Community Section -->
                     </div>
                     <div class="favorites d-flex mt-2">
                         <h1 class="favorites-text fs-6 m-2 mt-3 mb-3 fw-bold">COMMUNITY</h1>
                     </div>
                     <div class="d-sm-block ms-2">
                         <div class="firstuser d-flex">
-                            <img class="user-profile1" src="./Images/dp.avif" alt="">
-                            <p class="flex-item">&nbsp;/rChamp2021</p>
-                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">156</p>
+                            <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTrJ_MWAj-e1n2FwDfCZQU4VVzo-LHdDjreQ&usqp=CAU" alt="">
+                            <p class="flex-item">&nbsp;/rChapicode</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">122</p>
                         </div>
                         <div class="seconduser d-flex">
                             <img class="user-profile1" src="./Images/Reddit-Logo.png" alt="">
-                            <p class="flex-item">&nbsp;/rDavinchicodes</p>
+                            <p class="flex-item">&nbsp;/rCookiesNcReam</p>
                         </div>
                         <div class="thirduser d-flex">
                             <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">
-                            <p class="flex-item">&nbsp;/rArvinInnovatees</p>
+                            <p class="flex-item">&nbsp;/rTyronneMeasle</p>
                         </div>
                         <div class="fifthuser d-flex">
                             <img class="user-profile1" src="./Images/b.webp" alt="">
-                            <p class="flex-item">&nbsp;/rTaylorSweep22</p>
+                            <p class="flex-item">&nbsp;/rTBlessy68</p>
                         </div>
                         <div class="sixthuser d-flex">
                             <img class="user-profile1" src="./Images/c.avif" alt="">
-                            <p class="flex-item">&nbsp;/rChamp2021</p>
-                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">43</p>
+                            <p class="flex-item">&nbsp;/rEcclesiass</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">53</p>
                         </div>
+                        <div>
+                            <a class="view-all text-decoration-none">View all</a>
+                            <hr>
+                        </div>
+                    <!-- Reddit Section -->
                     </div>
                     <div class="favorites d-flex mt-2">
-                        <h1 class="favorites-text fs-6 m-2 mt-3 mb-3 fw-bold">COMMUNITY</h1>
+                        <h1 class="favorites-text fs-6 m-2 mt-3 mb-3 fw-bold">REDDIT</h1>
                     </div>
                     <div class="d-sm-block ms-2">
                         <div class="firstuser d-flex">
-                            <img class="user-profile1" src="./Images/dp.avif" alt="">
-                            <p class="flex-item">&nbsp;/rChamp2021</p>
-                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">156</p>
+                            <img class="user-profile1" src="https://png.pngtree.com/png-clipart/20210822/original/pngtree-cute-diano-vector-cartoon-art-chibi-png-image_6652999.jpg" alt="">
+                            <p class="flex-item">&nbsp;/rParty2012</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">59</p>
                         </div>
                         <div class="seconduser d-flex">
-                            <img class="user-profile1" src="./Images/Reddit-Logo.png" alt="">
-                            <p class="flex-item">&nbsp;/rDavinchicodes</p>
+                            <img class="user-profile1" src="https://images.squarespace-cdn.com/content/v1/56bb8d7e01dbae77f9890f9e/1581716282096-SSUZD0Z3VQ8ULXPY6DQ5/Chibi+drawing.jpg?format=1500w" alt="">
+                            <p class="flex-item">&nbsp;/rClothMaje</p>
                         </div>
                         <div class="thirduser d-flex">
-                            <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">
-                            <p class="flex-item">&nbsp;/rArvinInnovatees</p>
+                            <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQITTut5UVuwFGRLk9bEjmCJfiKpg-5aAVnmg&usqp=CAU" alt="">
+                            <p class="flex-item">&nbsp;/rTolonges</p>
                         </div>
                         <div class="fifthuser d-flex">
-                            <img class="user-profile1" src="./Images/b.webp" alt="">
-                            <p class="flex-item">&nbsp;/rTaylorSweep22</p>
+                            <img class="user-profile1" src="https://wallpapers-clan.com/wp-content/uploads/2023/08/naruto-chibi-itachi-uchiha-sticker-preview.jpg" alt="">
+                            <p class="flex-item">&nbsp;/rBroomskert</p>
                         </div>
                         <div class="sixthuser d-flex">
-                            <img class="user-profile1" src="./Images/c.avif" alt="">
-                            <p class="flex-item">&nbsp;/rChamp2021</p>
-                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">43</p>
+                            <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJEoqcKlPxM5BdhtpV0P7Tf_-dxz5nIaePg&usqp=CAU" alt="">
+                            <p class="flex-item">&nbsp;/rCampinoy</p>
+                            <p class="flex-item ms-5 border border black rounded-3 bg-body-secondary">13</p>
                         </div>
                     </div>
                     <div class="reddit-premium bg-white p-4 mt-4 rounded-4">
@@ -154,7 +175,7 @@
                         </div>
                     </div>
                 </section>
-                <!-- Contents section -->
+                <!-- Navigations  -->
                 <section class="col-lg-8 col-md-9 pt-5 pb-5 bg-body-secondary">
                     <div class="contents rounded-4">
                         <div class="c-nav navbar navbar p-2 pb-0 pt-0 col-12">
@@ -166,17 +187,103 @@
                                     <a class="create-post pt-2 pb-1 ps-2 pe-2 fw-bold text-white text-decoration-none border border black rounded-2" href="login.html">Create Post</a>                  
                                     </div>
                                 </div>
+                            <!-- Reddit Feeds -->
+                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
+                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
+                                    <div class="c-box d-flex">
+                                        <img class="news-image m-3" src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t39.30808-6/317565404_5607952455991870_5213991931619419899_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=TlbgjkfQRK8AX8_q6V2&_nc_ht=scontent.fmnl17-4.fna&oh=00_AfDQSXu3NDzbQmDrpwjg4rQgXqF8QkVfEPZMotFTBZ6akQ&oe=654DCA26" alt="">
+                                        <div class="pinned mt-4 d-flex">
+                                            <div class="">
+                                                <p class="highlights p-1 d-f fw-bold">PINNED BY MODERATORS</p>
+                                                <div>
+                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Good looking man spotted at baguio!</h1>
+                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">A man spotted at Baguio City he is known for his creative ideas and ...</p>                       
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://img.freepik.com/premium-photo/minimal-japanese-kawaii-butler-boy-chibi-anime-vector-art-sticker-with-clean-bold-line-cute-simple_655090-6349.jpg" alt="">&nbsp;&nbsp;Prism PhotoG</p>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
+                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
+                                    <div class="c-box d-flex">
+                                        <img class="news-image m-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABUFBMVEX////2hRt2PRbkdhvNYRbArZ4WFhbXwbPkdR/ldxsjNEf2hBX2jzr5hxttOBUAAAW8qZjq5N+Ed23iawARFBYtIBYAAADygRt2PRXjcADZbBhvLwDrfBv2fwDiagDkdBZsKQBzNwhwMQDUZxfz7+z76+DcbxnUYxEALkn/iRfTva+UbVipVxiIRhb438+8YRmbUBfqmmSJW0H10LpoIADRbRr328rnh0Hzx6zvsYuOSRfFsqmyXBi6YBnd0syDUjW2nZBoRDn5uIoALEn7yKTmgDIAABXXv69hWFLcpoNeAAC1aDCPQQDqk1bsqHzvuZeceWaqjX58RyWZc1+FVTj3mEn4oFz4qW75sHucUirCXhl5STU9OUJKPECnVSVWPz2WUSxsTT2/biuiYjLPdSZEKhamXBjauqXfl2aZiYBIQj7bqYgtKijDjGp2a2M+OTUoRLLKAAAPZ0lEQVR4nO2d6V/bxhaGsRVqCSoX4jS2QGCwDTaUNcRAgBDSlqZtiknTdEuz3La5t0m63P//250ZSdZ2ZjujNsnv6v2UGC3z6Lw6M3M0licmSpUqVapUqVKlSpUqVapUqVKlSpUqVaqUimbfdAOkMmxh78v7n/aKacnfopXL+1+ate94vvpV42KvoPYUrb2LxlfV+WOjY9xYrlarQ88bbRXUqOK0NWp4Q9K65Y9MjtJbapFj1E/aXuP88m1ya+/yvOE5G3XSuuq8ScOISanqR7bT9hbfGrfuXSx6bWd1kwGa2ZSZlGnoW1a78Ta4dWvkeW3LcrajppnYtHczOkq1vtF2LMvyFs8vV4prrbZWiDsJnuU4O/Vx227ibRqaNEDcXKWIFrkl35hbSe6k4SOAw80Y0MSmsUmZtn2L6c24NXQnA9yuJ9uFt2mQSRNh3HGc4BSW13D+UbeuXDoNLzx3yqFMS1ibJk2acuo/7Vbqzui8xKGtDCDephmTMsbIqSHkP+BW2rO345M6t7N8eJsmMino1MCt9t/q1ih3jvmsrEOZkNk0Z9LQqcMkIgnk4sFhwVyRDknPnjoZ4FATmwImzTs1gPRe7hcMR9z50ku6kwGegHxYm2YzadKplpM+Nc2tt4p068ql1cjgkXMecQCR2RQ2aYDYGmZPT9POwWFBg/PDg0TuTDiU2yCcTXkmDRhv+7kmUMhdc7fu590pdCgTxqZ8kwaIeacyyIZn5FbaswN4lmPzHUrVQthUYNLwoEMgjGFuRboVdGfgUEljMDYVmjQI4wmIyCB39Yc7e7uLkDsZ4IYwgFT6NpWYNEA8Ap0auLX5vp6aoDsZ3+qmFBBhU6lJA8FOpfKn9cQ9UDzVFUrbpnKTMhGn8sJY0RMXUO5QJl2bqpg0QDyyOYhNLcCmgUMDadpU0aRMHKc6WoTwZVJ0KJOmTT9SMylTfQN2qhYhyJeb6oqkaVMdwtTEOCFfAxCyQboYUzThWUfj2NW4hIO1KXCF/G0dvmq1c6ZFeLqkR5iZGAdSzzX5PKPnUKqlUy1C5Vw6RgScqm7TnAM0HVpFdPktTUJgYqyRa3KAQDFGRljVA5x4oJNqQsScU1VtmjEppxgj1vIDTcLJjvY58k5VtWl6L14xRqzOpCahbqoJGTNOxZhUPNXlSjPR0FSDOU3WqWpBTF4VUTFGTKg9J72jnWoCxFay2KjWJSZ3EBVjRGrd0QWceNDBnSpdwlEBTOQZXz+HhuroJhq9sXcGMVHCUbHp+IKgcmgoRBUDl2oCxLjYqGJTsxwaSjvREOEJk06Vd4mRSZE5NCLUB8SmmhAxcqrcpr5ZDg2ESDQTE193DM5Ineqr5RqzHBqq8zWCEJ9qQsag2CizqW/u0Cqyqj9rciMyRFZslNnUkRe0FbSEWr/XMTNONSyLS00qL2jLT9TBAKoWFEWiThUH0VcuF4q0fANFqFvJABGPbDGhRrlQoM4ZirBmeiMytYZCQo1yoUDzNRShcaoJVN92uXwuehyaFi7RmI1qkhIQFgOIGtFQaRVNuarvCAiNuwkm9LKvIlINXX4rSjQFJFJ0ojGaXoxF6xoCQu26LyjMxIIJWclIic74+QM3Mq9oF9Dfo1fu9ZYNRzVh8U1IaDmrpmOn1jKS8HTeFDAsS4kJTSdOFHEeZdOvdQv7OcANXzYLDme/Pr56ESIunSEAoZWJWoDb8nl+tAW+AhUhfjmjj3h20yyG8aNh/sg03mRohNha0q14M512DHr8VqLAr0BoNsnvLCNHbb0b2Gl+eqWNCiHZHj3JmDf4wgWyVqNc20/V87WfiYbqnOEBZx+irJNdDsYvmmYeVeGqNa2H6K8gHuP6i9yjUlVC7BCutYRcq4/sL1rD7ONuZUJ0yeYmpphIJsCYVFrfzK+RUifEDuGWcVPgXquIJ91UXML8pqgh3HILOTDt3enoAm6AK8A0CMlkQzuldu7g15ff0EMElmPoE2qn1A6ulBjqGy2j5lfwYwg1h3DL35gAkhmU6onq9Ra4uo2KN/TmLLlkTxKVIXEzp0iKo2/SnJ3hNndJtDah5djbw52qIuXNMzRf75HKHJgEb2PYdF0uH4KQMLpuZbihFMrW0iN0pvmoI8c72nbWSGvA9ZMGhHQw67pr/vaRHLJjMPJ+KPzeTL3KgufKGssdeouuSnBZyNGbww2xX5cf4gEFtah6ffPECun4WdGEcDwSImdxbm9yIdF1qECn4LcsSWJ50UzgSdqKI0zuRUP5Ak49Lewzi0i1LCIN3rDipiv1Qo9iCTO3L009J7lQtm4adRZUZ0tJuvrOtu+6uQcR4pZiCXMjdnLmbOrBFWjSejAf4QW9gn5LuZMLQQfDvTIs9Yx7kXnUtCkrOjhlvQIQPCaJR/GEnG4mTj0m/URSD1s7wyYPryL1qAEhd2bJepGdOmadEKStBT5dRe5Rizv0lhIKlzm47kJRb7H6dEFwHrlH+YQKewoXHC0U9TX5b6dFp1FopgGhcHHj9HfFAK4IQ6jgURNC8XKchWIIhSZV8SjXayb7BoTFvHtEaFInlnYrRVcncVzB2YuxaU8UQudKl2pubm6Vys40LgIXEDr5zW2bHoscc44e+4oIsRCbHgpvw+4VUBE3A7dtDuEYhW0OH+lKV3T6Qmz6nTCT+ryGpQSHwVfZtStONd8XQCgMYaViqyDCrVQh7Nri0xdg0z0Joa+CiCbsSpY2VhbMX8TxvdCkRLYCIodQumPXloSwCJtKQkiDKEXscu5D6X62LIQF2HRfSkiCKEOcgwmdOSmgLIQF2PQHOaEvRVy1oLmJ66xKAeVf11j4wZBQDsiCKEa04YGpZcsA5SGsTE+bASqYNAgigNiPCeGW2jawbQpQ5YthC2avjFMwaSUIYhaxf+Xh1I/9qLGc3cJ9nk3dyTIyQIUQEsKPjQgrsr6Cyc8h9h//NBhMPQmaPcclDFJN/+nUYPDT434OUOmb0tMVE8AtpRCGQYwR+7fvDqaIBs/Yf1e5hEGq2Qg2vnvSTwMqhdDQph8rEjaTiP1nz1mTiZ72g9sQjAbdiW3/PNx68PRZv58AVPyyu5FN1UxaiYJIEfs/Po34SJs3FAhPEts/+Vd/DKgYQiObiusX2dYSWe1ng0/iBk9NPQ8bzCOkl+RuYnuy949tRyuEJIj496epmrRC+zYqx3X9+z+TvDFu8YmU8HG88WDw/L7vugEhOEqACfE2fV/VpFEQSatcd63y4tGTKJJ3+zSVcgnnxiEcfDJ145cme9jq6IWwMv0+FlDdpJXoTgz+7a6tnf/6nEVy8JimUi7hahDCweD1ry/W1sKoWXohNLCpuBIMtDeRHAik/8vPxHd3+7yAsD36pN8c/HzfH+NVwoul8yKthU+RhBomrYRXPnXhCSXx62Mh4eMnj2jwUvsFd7TGqbE21TJp2ODsh+6a23QEhE7TXcux6IYQbVMtkxIYi9OF+QJCHwqVbgjRNhU/roBbzPucRwiGSjuElelvMYDCSjAohzv+5BJyttcMIdKm4kowpKY+IUiiPF6LhbKpuBIMiQxGwM8dLiE8w7X1XkhIhbKpdghpm8GPfT1CzlHEQthUVgkG5YAZosklhDfXvgsrKJvqm5Q2Ds6BXEL4IIgTY56zYULIE5cQESyeFnRXtymZ1M0L3M7hEMIZRfWoGULdVQsri5KHz+NKYDcSe1wInt3nEMKpdPxAMfVU0Za0p6FdrTnnvZo5egwNl+TBXNPkEIKfOuBx5yRrb9qOLuDELfjd4QlEqCFdB3yizSEEPvQtByyfyxYXeSNtwv2G5JhgTb4Lv3OHQ5i/v3wLJpR51GogHnfLYgj6lJkpv2oS9m6+33NEhxUT6gNO7EpuRNCn4VcuskA+SJgNdrD6BHoiJQVsXyAID6VBtKw8YfiHTOPBkUD2w2h1VZ5Q6lHLw6xw60lvRMBQ47b4Qpjgw7xDmXL3t9yj1iJqkn8gtWnep4k/iWjynzUTFNoetdrnGMCJSwWbZq93sjFNHg1EK7hsco9a3i0U4Zbcpjmfpi438l3QGUIFj1oN5MN8hRhmmtPNvBFYETCzV7pDVABE9RVUIxVEW0AYOxVcqQA4lBGmfKHgUau9iyTcU7Bpuj15R/kBiwNMGJxgzpB/W7n4iIA87Pq9nkoMUz4FvmNJENesD699mNe1f/tr0BrjVJevAmg10N98upD3F1RiS3kLO59dg/Tetc/+swCdwRYfMKf2ARZQqb9IuQo4u/fyt+vv8XT9t5fQ7wPpedTyLtGE0mlwiMgl9Nov79UmBYTHtXsAo55HrYbBb2g5aja14RZ57dG9Wq12JiA8I3+/97Kd+Q1ALY9a7TYeUK2/iH2a7CxIq0c1plcCwldsC8qYPFxXx6OYyW8s+TQ4bFOWkLT4i1qoqx9wCT+4Gm00chK/NNrV8Shq8htLLYaRT6OL3vbsMV+t9rkghp/Hm33hjH8Md07DoySGJoAK0+Bko6LfRD5P8NVqr69xCa+9Tm74hR3+nvGqhkdxk99YKtPgAJERBny/11L6Q0D4R3rTkHFVw6O4yW8sxf7CCnxqA3y1df5tSGy6ntn693PCaGt4FDn5jSUrm45Ffdr2DrJ8hJB/G7IOMSvKqO5R7OQ3lrRsGiNe6QN8wu4w7BBzjAd9ZY9iJ7+xVKbBwbX0Fv8EWivsDscdYlZ/cn/sMSf9an5WKjFse97i+Wh/dnIye1tJCa/md1ifnOztj84JpAqlWV9BtStDbHsNa7QXzF+OZ/KMf30g0l95vpng3WQrh7vthjSU6MlvrD0RIaFbvEj+MHdtJhfHz69f5eqv66+zfJMziXdzb10eLIop0ZPfWPyyKcE7v5UtAZ0SxDTjf19N8vXqjwzf5Ez2LRB7o3MBJH7yGwssmxI6b/cQ6olmKWKSUcBHleabnIG+gE4M24ApDSa/sXLTYEp3cclNYb3JNKMiYcA3yQ0JMSxAaTD5jbXSyOA5o32xNWoMMWJUImR8qVsQUG9vlM09JpPfWOOkzbdmRrPJ5isQRv9WeEUCMawXUxpNfmOxaTChaxzwrZnV+kzY6HUp4Xr4j5l11YNv3TpoBL9ObjT5jbXfIOMVJ+ryFHU6I+TKC0wxXBHDOmRIgK3mZ+VdqFgz24ZjHcaZY/2sv3J4YT6gMZJGGHOd4DuisN+Q8/H7iLdeSmF8VwMYaFYO+A4HMNC6OIySTv6d0OyMQCqd/Nuv3ixfb7ptpUqVKlWqVKlSpUqVKlWqVKlSpUqVKlWqVKlSpUqV+r/S/wAUoEJXGIj5iQAAAABJRU5ErkJggg==" alt="">
+                                        <div class="pinned mt-4 d-flex">
+                                            <div class="">
+                                                <p class="highlights p-1 d-f fw-bold">ANNOUNCEMENTS</p>
+                                                <div>
+                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Onboard to crypto and manage your web3 everything, all in one place with MetaMask Portfolio.</h1>
+                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://png.pngtree.com/png-clipart/20230407/original/pngtree-cute-school-anime-chibi-character-png-image_9035249.png" alt="">&nbsp;&nbsp;Codeblight</p>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
+                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
+                                    <div class="c-box d-flex">
+                                        <img class="news-image m-3" src="./Images/coding.jpeg" alt="">
+                                        <div class="pinned mt-4 d-flex">
+                                            <div class="">
+                                                <p class="highlights p-1 d-f fw-bold ps-2">QUESTIONS</p>
+                                                <div>
+                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Thoughts about Base-404 Bootcamp?</h1>
+                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block"> The bootcamp aims to equip you with the practical skills, up-to-date tools and technologies ...</p>                       
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">&nbsp;&nbsp;Sandy</p>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
+                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
+                                    <div class="c-box d-flex">
+                                        <img class="news-image m-3" src="https://codehooks.io/img/codehooks-feature.svg" alt="">
+                                        <div class="pinned mt-4 d-flex">
+                                            <div class="">
+                                                <p class="highlights p-1 d-f fw-bold">&nbsp; RECOMMENDED FOR YOU</p>
+                                                <div>
+                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Need an API for a front-end app or an automation? codehooks.io</h1>
+                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">is an easy API and database backend as a service for projects with a deadline....</p>                       
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://thumbs.dreamstime.com/b/vector-illustration-cute-chibi-character-isolated-white-background-cartoon-death-scythe-159318925.jpg" alt="">&nbsp;&nbsp;Salty Grim</p>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
+                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
+                                    <div class="c-box d-flex">
+                                        <img class="news-image m-3" src="https://external-preview.redd.it/NnRxGHWOUSzqmC8llwGuBUBPRA9oPxILdsG1GODfGg8.jpg?width=640&crop=smart&auto=webp&s=9ebd9cf58375959396bfd6866bb7d4bbea42d1d7" alt="">
+                                        <div class="pinned mt-4 d-flex">
+                                            <div class="">
+                                                <p class="highlights p-1 d-f fw-bold">&nbsp;TREDING NOW</p>
+                                                <div>
+                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Experience the benefits of a new Nvidia-optimized open-source framework in computer vision projects.</h1>
+                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpnUVqNPTSRUsh02oPtZh5tQ33D5Q4UrSrxw&usqp=CAU" alt="">&nbsp;&nbsp;Salamandy</p>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </a>
                             <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
                                 <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
                                     <div class="c-box d-flex">
                                         <img class="news-image m-3" src="./Images/meta.jpeg" alt="">
                                         <div class="pinned mt-4 d-flex">
                                             <div class="">
-                                                <p class="highlights p-1 d-f fw-bold">PINNED BY MODERATORS</p>
+                                                <p class="highlights p-1 d-f fw-bold">LATEST NEWS IN TECH</p>
                                                 <div>
                                                     <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] is the future!</h1>
                                                     <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
-                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">&nbsp;&nbsp;Sandy</p>
+                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://files.tofugu.com/articles/japanese/2016-04-25-chibi/chibihowto-06.jpg" alt="">&nbsp;&nbsp;Klesty V</p>
                                                 </div>
                                             </div>
                                         </div>  
@@ -185,7 +292,7 @@
                             </a>
                         </div>
                     </section>
-                    <!-- aside -->
+                    <!-- Communities and Trends Section -->
                     <section class="fav-sec col-md-3">
                         <aside class="top-gg">
                             <div class="top-g bg-white p-4 mt-4 rounded-2">
@@ -194,21 +301,21 @@
                                     <hr>
                                     <div class="ms-2">
                                         <div class="firstuser d-flex">
-                                            <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">
+                                            <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRlfpug46HzS0GJQbB012K1aNQmRzcv7E9BQKg8Ga08A&s" alt="">
                                             <p class="flex-item mt-2">&nbsp;r/Coding</p>
                                             <p class="flex-item ms-4"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
                                             <path d="M13.0863 7.95762H0.9455C0.104829 7.95762 -0.316168 6.9412 0.278266 6.34677L6.34867 0.276363C6.71715 -0.0921209 7.31465 -0.0921209 7.68314 0.276363L13.7535 6.34677C14.348 6.9412 13.927 7.95762 13.0863 7.95762Z" fill="#89CD78"/>
                                             </svg>42k</p>
                                         </div>
                                         <div class="seconduser d-flex">
-                                            <img class="user-profile1 mt-2" src="./Images/chibi-300x300.jpg" alt="">
+                                            <img class="user-profile1 mt-2" src="data:image/png;base64,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" alt="">
                                             <p class="flex-item mt-3">&nbsp;/rCartalk</p>
                                             <p class="flex-item ms-4"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
                                             <path d="M13.0863 7.95762H0.9455C0.104829 7.95762 -0.316168 6.9412 0.278266 6.34677L6.34867 0.276363C6.71715 -0.0921209 7.31465 -0.0921209 7.68314 0.276363L13.7535 6.34677C14.348 6.9412 13.927 7.95762 13.0863 7.95762Z" fill="#89CD78"/>
                                             </svg>30k</p>
                                         </div>
                                         <div class="thirduser d-flex">
-                                            <img class="user-profile1 mt-2" src="./Images/chibi-300x300.jpg" alt="">
+                                            <img class="user-profile1 mt-2" src="data:image/jpeg;base64,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" alt="">
                                             <p class="flex-item mt-2">&nbsp;/rMemes</p>
                                             <p class="flex-item ms-4"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
                                             <path d="M13.0863 7.95762H0.9455C0.104829 7.95762 -0.316168 6.9412 0.278266 6.34677L6.34867 0.276363C6.71715 -0.0921209 7.31465 -0.0921209 7.68314 0.276363L13.7535 6.34677C14.348 6.9412 13.927 7.95762 13.0863 7.95762Z" fill="#89CD78"/>
@@ -224,21 +331,21 @@
                                             <hr>
                                             <div class="ms-2">
                                                 <div class="firstuser d-flex">
-                                                    <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">
+                                                    <img class="user-profile1" src="data:image/jpeg;base64,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" alt="">
                                                     <p class="flex-item mt-2">&nbsp;r/League</p>
                                                     <p class="flex-item ms-4"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
                                                     <path d="M13.0863 7.95762H0.9455C0.104829 7.95762 -0.316168 6.9412 0.278266 6.34677L6.34867 0.276363C6.71715 -0.0921209 7.31465 -0.0921209 7.68314 0.276363L13.7535 6.34677C14.348 6.9412 13.927 7.95762 13.0863 7.95762Z" fill="#89CD78"/>
                                                     </svg>42k</p>
                                                 </div>
                                                 <div class="seconduser d-flex">
-                                                    <img class="user-profile1 mt-2" src="./Images/chibi-300x300.jpg" alt="">
+                                                    <img class="user-profile1 mt-2" src="data:image/jpeg;base64,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" alt="">
                                                     <p class="flex-item mt-3">&nbsp;/rValoran</p>
                                                     <p class="flex-item ms-4"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
                                                     <path d="M13.0863 7.95762H0.9455C0.104829 7.95762 -0.316168 6.9412 0.278266 6.34677L6.34867 0.276363C6.71715 -0.0921209 7.31465 -0.0921209 7.68314 0.276363L13.7535 6.34677C14.348 6.9412 13.927 7.95762 13.0863 7.95762Z" fill="#89CD78"/>
                                                     </svg>30k</p>
                                                 </div>
                                                 <div class="thirduser d-flex">
-                                                    <img class="user-profile1 mt-2" src="./Images/chibi-300x300.jpg" alt="">
+                                                    <img class="user-profile1 mt-2" src="https://i.vimeocdn.com/video/1010826208-455b4776e6e5e8cae33d9a414ac535a419e92ae3dcd36160467c7c24216b3f14-d?f=webp" alt="">
                                                     <p class="flex-item mt-3">&nbsp;/rFarlight</p>
                                                     <p class="flex-item ms-4"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
                                                     <path d="M13.0863 7.95762H0.9455C0.104829 7.95762 -0.316168 6.9412 0.278266 6.34677L6.34867 0.276363C6.71715 -0.0921209 7.31465 -0.0921209 7.68314 0.276363L13.7535 6.34677C14.348 6.9412 13.927 7.95762 13.0863 7.95762Z" fill="#89CD78"/>
@@ -253,5 +360,6 @@
         </div>
     </main>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
