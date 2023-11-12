@@ -126,7 +126,10 @@ body{
         width: 210px;
         display: none;
     }
-}
+    .holi{
+        width: 1200px;
+    }
+}   
 @media (max-width: 768px){
     .favorite-section{
         display: none;
@@ -154,5 +157,11 @@ body{
     }
     .top-g{
         width: 382px;
+    }
+    .news-image{
+        width: 30%;
+    }
+    .search-button{
+        display: none;
     }
 }
