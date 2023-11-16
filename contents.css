@@ -116,9 +116,6 @@ body{
 .footer-text{
     font-size: 12px;
 }
-.search-button{
-    background-color: #FF5700;
-}
 @media(min-width: 1215px){
     .nav-item{
         padding-left: 70px;
@@ -142,7 +139,9 @@ body{
     }
     }
 @media (max-width: 576px){
-    
+    .content-bg{
+        margin-top: 20px;
+    }
     .contents{
         position: relative;
         top: -20px;
@@ -166,5 +165,8 @@ body{
     }
     .search-button{
         display: none;
+    }
+    .my-photo{
+        margin-top: 0px !important; 
     }
 }

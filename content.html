@@ -7,7 +7,7 @@
     <link rel="icon" href="./Images/reddit-logo-16.png">
     <title>Reddit</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contents.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active fw-bold ms-4" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="15" viewBox="0 0 23 15" fill="none">
+                    <a class="nav-link active fw-bold ms-4" aria-current="page" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="15" viewBox="0 0 23 15" fill="none">
                         <path d="M1 13.3374H21.8911" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M1.9917 13.3375L2.04393 6.07173C2.04393 5.70331 2.34685 5.35304 2.84823 5.12354L10.1602 1.83191C10.9123 1.49369 11.9672 1.49369 12.7297 1.83191L20.0417 5.11749C20.5535 5.347 20.846 5.69727 20.846 6.07173V13.3375" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
                         <path d="M12.4899 10.3176H10.4008C9.53384 10.3176 8.83398 10.7223 8.83398 11.2236V13.3375H14.0568V11.2236C14.0568 10.7223 13.3569 10.3176 12.4899 10.3176Z" stroke="#292D32" stroke-width="2" stroke-miterlimit="10" stroke-linejoin="round"/>
@@ -52,7 +52,7 @@
                         </li>
                     </ul>
                 <input class="form-control me-2 me-3" type="search" placeholder="🔍 Find community or post" aria-label="Search">
-                <button class="search-button rounded-5 text-white px-3 fw-bold" type="submit">Search</button>
+                <button class="search-button rounded-2" type="submit">Search</button>
             </form>
             </div>
             </div>
@@ -176,121 +176,39 @@
                     </div>
                 </section>
                 <!-- Navigations  -->
-                <section class="col-lg-8 col-md-9 pt-5 pb-5 bg-body-secondary">
+                <section class="col-lg-8 col-md-9 pt-5 pb-5 bg-body-secondary content-bg">
                     <div class="contents rounded-4">
-                        <div class="c-nav navbar navbar p-2 pb-0 pt-0 col-12">
-                                <div class="nav-content mt-3 d-flex">
-                                    <li class="content-nav fw-bold pe-4 mt-2">Hot</li>
-                                    <li class="content-nav navicon fs-6 fw-bold pe-4 mt-2 border border black me-3 ps-2 bg-body-secondary">Popular</li>
-                                    <li class="content-nav fs-6 fw-bold pe-4 me-2 mt-2">Controversial</li>
-                                    <li class="content-nav fs-6 fw-bold pe-4 mt-2">Rising</li>
-                                    <a class="create-post pt-2 pb-1 ps-2 pe-2 fw-bold text-white text-decoration-none border border black rounded-2" href="login.html">Create Post</a>                  
-                                    </div>
-                                </div>
-                            <!-- Reddit Feeds -->
-                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="content.html">
-                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                    <div class="c-box d-flex">
-                                        <img class="news-image m-3" src="https://emojiisland.com/cdn/shop/products/Unknown_Man_Emoji_large.png?v=1571606038" alt="">
-                                        <div class="pinned mt-4 d-flex">
-                                            <div class="">
-                                                <p class="highlights p-1 d-f fw-bold">PINNED BY MODERATORS</p>
-                                                <div>
-                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Myserious Good looking man at baguio?</h1>
-                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">A man spotted at Baguio City he is known for his creative ideas and ...</p>                       
-                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://img.freepik.com/premium-photo/minimal-japanese-kawaii-butler-boy-chibi-anime-vector-art-sticker-with-clean-bold-line-cute-simple_655090-6349.jpg" alt="">&nbsp;&nbsp;Prism PhotoG</p>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
-                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                    <div class="c-box d-flex">
-                                        <img class="news-image m-3" src="data:image/png;base64,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" alt="">
-                                        <div class="pinned mt-4 d-flex">
-                                            <div class="">
-                                                <p class="highlights p-1 d-f fw-bold">ANNOUNCEMENTS</p>
-                                                <div>
-                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Onboard to crypto and manage your web3 everything, all in one place with MetaMask Portfolio.</h1>
-                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
-                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://png.pngtree.com/png-clipart/20230407/original/pngtree-cute-school-anime-chibi-character-png-image_9035249.png" alt="">&nbsp;&nbsp;Codeblight</p>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
-                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                    <div class="c-box d-flex">
-                                        <img class="news-image m-3" src="https://cdn-icons-png.flaticon.com/512/6528/6528597.png" alt="">
-                                        <div class="pinned mt-4 d-flex">
-                                            <div class="">
-                                                <p class="highlights p-1 d-f fw-bold ps-2">QUESTIONS</p>
-                                                <div>
-                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Thoughts about Base-404 Bootcamp?</h1>
-                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block"> The bootcamp aims to equip you with the practical skills, up-to-date tools and technologies ...</p>                       
-                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="./Images/chibi-300x300.jpg" alt="">&nbsp;&nbsp;Sandy</p>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
-                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                    <div class="c-box d-flex">
-                                        <img class="news-image m-3" src="https://codehooks.io/img/codehooks-feature.svg" alt="">
-                                        <div class="pinned mt-4 d-flex">
-                                            <div class="">
-                                                <p class="highlights p-1 d-f fw-bold">&nbsp; RECOMMENDED FOR YOU</p>
-                                                <div>
-                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Need an API for a front-end app or an automation? codehooks.io</h1>
-                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">is an easy API and database backend as a service for projects with a deadline....</p>                       
-                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://thumbs.dreamstime.com/b/vector-illustration-cute-chibi-character-isolated-white-background-cartoon-death-scythe-159318925.jpg" alt="">&nbsp;&nbsp;Salty Grim</p>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
-                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                    <div class="c-box d-flex">
-                                        <img class="news-image m-3" src="https://neurosciencenews.com/files/2021/04/attention-glance-neurosciencews-public.png" alt="">
-                                        <div class="pinned mt-4 d-flex">
-                                            <div class="">
-                                                <p class="highlights p-1 d-f fw-bold">&nbsp;TREDING NOW</p>
-                                                <div>
-                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">Experience the benefits of a new Nvidia-optimized open-source framework in computer vision projects.</h1>
-                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
-                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpnUVqNPTSRUsh02oPtZh5tQ33D5Q4UrSrxw&usqp=CAU" alt="">&nbsp;&nbsp;Salamandy</p>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="reddit-feeds mt-4 text-decoration-none text-black" href="">
-                                <div class="newsfeed border border black rounded-3 m-4 ms-4 bg-white">
-                                    <div class="c-box d-flex">
-                                        <img class="news-image m-3" src="./Images/meta.jpeg" alt="">
-                                        <div class="pinned mt-4 d-flex">
-                                            <div class="">
-                                                <p class="highlights p-1 d-f fw-bold">LATEST NEWS IN TECH</p>
-                                                <div>
-                                                    <h1 class="c-heading fw-bold .d-sm-none .d-md-block">[META] is the future!</h1>
-                                                    <p class="c-paragraph fw-bold .d-sm-none .d-md-block">The metaverse will be built by everyone, with creative ideas and ...</p>                       
-                                                    <p class="username mt-3">&nbsp;&nbsp;Posted by &nbsp; <img class="user-profile1" src="https://files.tofugu.com/articles/japanese/2016-04-25-chibi/chibihowto-06.jpg" alt="">&nbsp;&nbsp;Klesty V</p>
-                                                </div>
-                                            </div>
-                                        </div>  
-                                    </div>
-                                </div>
-                            </a>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="fw-bold p-4 pb-0 ms-2 mt-2">Good looking man spotted at Baguio!</h3>
+                            </div>
+                            <div class="col-12">
+                                <img class="my-photo img-fluid w-100 p-2 m-2 pe-4" src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t39.30808-6/317565404_5607952455991870_5213991931619419899_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=O1V-ootdQXcAX8OQ3j8&_nc_ht=scontent.fmnl17-4.fna&oh=00_AfB2T9e1Id4uJDCqlUgnSOO-jQFOo4E3dL1G7FBfCO1f3A&oe=6555B326" alt="">
+                            </div>
+                            <div class="col-md-12 p-3">
+                                <p class="p-2 ps-3 text-justify">In the heart of Baguio City, amidst the crisp mountain air and the fragrance of pine trees, an enchanting presence has graced the streets. The dashing Arvin Antonio has been spotted, turning heads and capturing hearts with his undeniable charm.<br><br>
+                                    With a smile that could rival the sunsets over the Cordilleras and a sense of style that effortlessly blends urban sophistication with the city's laid-back vibe, Arvin Antonio is setting a new standard for dapper in the City of Pines.                         
+                                    Locals and tourists alike are whispering about this mysterious man, wondering if he's a mountain spirit or just a regular guy with an extraordinary flair. One thing's for sure—Baguio's beauty just got a bit more captivating with Arvin Antonio in the picture.</p>
+                            </div>
                         </div>
+                            <div class="row">
+                                <div class="col-md-12 d-flex">
+                                    <ul><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                        <path d="M3.78707 13.5499V9.98248H0V0.136108H13.6334V9.98248H7.35448L3.78707 13.5499ZM0.757413 9.22507H4.54448V11.717L7.03637 9.22507H12.876V0.893522H0.757413V9.22507Z" fill="#5E5D5D"/>
+                                        </svg> Comments</ul>
+                                    <ul><svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">
+                                        <path d="M12.8512 16.8018C14.1603 16.8018 15.2215 15.7407 15.2215 14.4316C15.2215 13.1225 14.1603 12.0613 12.8512 12.0613C11.5421 12.0613 10.481 13.1225 10.481 14.4316C10.481 15.7407 11.5421 16.8018 12.8512 16.8018Z" stroke="#5E5D5D" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.8512 5.74056C14.1603 5.74056 15.2215 4.67935 15.2215 3.37028C15.2215 2.06121 14.1603 1 12.8512 1C11.5421 1 10.481 2.06121 10.481 3.37028C10.481 4.67935 11.5421 5.74056 12.8512 5.74056Z" stroke="#5E5D5D" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3.37028 11.2712C4.67935 11.2712 5.74056 10.21 5.74056 8.90092C5.74056 7.59181 4.67935 6.53064 3.37028 6.53064C2.06121 6.53064 1 7.59181 1 8.90092C1 10.21 2.06121 11.2712 3.37028 11.2712Z" stroke="#5E5D5D" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10.8764 4.55542L5.3457 7.71579" stroke="#5E5D5D"/>
+                                        <path d="M5.3457 10.0861L10.8764 13.2464" stroke="#5E5D5D"/>
+                                        </svg> Share</ul>
+                                    <ul><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M16.8376 4.5C17.3836 4.49954 17.9243 4.6081 18.4278 4.81931C18.9314 5.03052 19.3877 5.34014 19.7701 5.73C20.5579 6.52979 20.9995 7.60737 20.9995 8.73C20.9995 9.85264 20.5579 10.9302 19.7701 11.73L12.0001 19.5975L4.23008 11.73C3.44226 10.9302 3.00067 9.85264 3.00067 8.73C3.00067 7.60737 3.44226 6.52979 4.23008 5.73C4.61264 5.34042 5.06901 5.03096 5.57251 4.81972C6.07601 4.60848 6.61656 4.49968 7.16258 4.49968C7.70859 4.49968 8.24914 4.60848 8.75264 4.81972C9.25614 5.03096 9.71251 5.34042 10.0951 5.73L12.0001 7.68L13.8976 5.745C14.2788 5.35049 14.7356 5.0369 15.2407 4.82298C15.7459 4.60906 16.289 4.49921 16.8376 4.5ZM16.8376 3C16.0918 2.99937 15.3534 3.14764 14.6657 3.43613C13.9779 3.72461 13.3547 4.1475 12.8326 4.68L12.0001 5.52L11.1676 4.68C10.6448 4.14846 10.0214 3.72631 9.33382 3.43814C8.64621 3.14998 7.90812 3.00157 7.16258 3.00157C6.41703 3.00157 5.67894 3.14998 4.99133 3.43814C4.30373 3.72631 3.68036 4.14846 3.15758 4.68C2.09398 5.76272 1.49805 7.21977 1.49805 8.7375C1.49805 10.2552 2.09398 11.7123 3.15758 12.795L12.0001 21.75L20.8426 12.795C21.9062 11.7123 22.5021 10.2552 22.5021 8.7375C22.5021 7.21977 21.9062 5.76272 20.8426 4.68C20.3199 4.14818 19.6966 3.72573 19.009 3.4373C18.3214 3.14886 17.5832 3.00021 16.8376 3Z" fill="black"/>
+                                        </svg> Save</ul>
+                                </div>
+                                    </div>
+                                </div>
                     </section>
                     <!-- Communities and Trends Section -->
                     <section class="fav-sec col-md-3">
