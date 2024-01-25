@@ -25,7 +25,7 @@ Key Features:
 
 
 ## 🔗 Links
-To view the reddesigned website:  https://katherineoelsner.com/
+To view the reddesigned website:  https://reddit-website-redesign.vercel.app/
 
 
 
