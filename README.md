@@ -44,3 +44,6 @@ This project is licensed under the MIT License.
 ## Acknowlegements
 
 - Special thanks to Bootstrap for providing an amazing framework.
+
+
+Feel free to customize this template further based on the specific details of your project. Add any extra sections, dependencies, or acknowledgments that you find relevant. Good luck with your JavaScript Game project!
